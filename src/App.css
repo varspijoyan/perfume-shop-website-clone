@@ -6,8 +6,17 @@
 
 /* Root variables */
 :root {
-    --main-clr-orange: "orange";
-    --main-clr-black: "black";
-    --italianno-ff: "Italianno", cursive;
-    --montserrat-ff: "Montserrat", sans-serif;
+  --main-clr-orange: "orange";
+  --main-clr-black: "black";
+  --italianno-ff: "Italianno", cursive;
+  --montserrat-ff: "Montserrat", sans-serif;
+}
+
+/* Default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
 }
