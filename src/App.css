@@ -23,9 +23,9 @@
 
 /* body styles */
 body {
-    font-family: var(--montserrat-ff);
-    color: #4d4d4d;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+  font-family: var(--montserrat-ff);
+  color: #4d4d4d;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
