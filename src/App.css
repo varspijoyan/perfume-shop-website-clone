@@ -6,8 +6,8 @@
 
 /* Root variables */
 :root {
-  --main-clr-orange: "orange";
-  --main-clr-black: "black";
+  --main-clr-orange: orange;
+  --main-clr-black: black;
   --italianno-ff: "Italianno", cursive;
   --montserrat-ff: "Montserrat", sans-serif;
 }
