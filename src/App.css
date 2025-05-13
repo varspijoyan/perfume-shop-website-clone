@@ -3,3 +3,11 @@
 
 /* Italianno */
 @import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
+/* Root variables */
+:root {
+    --main-clr-orange: "orange";
+    --main-clr-black: "black";
+    --italianno-ff: "Italianno", cursive;
+    --montserrat-ff: "Montserrat", sans-serif;
+}
