@@ -47,7 +47,7 @@
   width: 380px;
   z-index: 2;
   position: relative;
-  left: 50px;  
+  left: 50px;
 }
 
 .imageContainer {
@@ -62,13 +62,13 @@
   height: 500px;
   background-color: rgba(184, 184, 184, 0.341);
   z-index: 1;
-  top: 60px; 
+  top: 60px;
 }
 
 .imageText {
-    font-family: var(--italianno-ff);
-    font-size: 3.4rem;
-    margin-left: 20rem;
-    margin-top: -10px;
-    color: black;
+  font-family: var(--italianno-ff);
+  font-size: 3.4rem;
+  margin-left: 20rem;
+  margin-top: -10px;
+  color: black;
 }
