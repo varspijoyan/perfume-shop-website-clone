@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "titlePart": {
+            "titlePart1": "Black",
+            "titlePart2": "Daily"
+        },
+        "description": "Perfume is a mixture of fragrant essential oils or aroma compounds, fixatives and solvents, usually in liquid form, used to give the human body, animals, food, objects, and living-spaces an agreeable scent.",
+        "image": "../../assets/p8-Copy.png",
+        "price": 129
+    },
+    {
+        "id": 2,
+        "titlePart": {
+            "titlePart1": "Casual",
+            "titlePart2": "Odour"
+        },
+        "description": "Perfume is a mixture of fragrant essential oils or aroma compounds, fixatives and solvents, usually in liquid form, used to give the human body, animals, food, objects, and living-spaces an agreeable scent.",
+        "image": "../../assets/p9.png",
+        "price": 74
+    },
+    {
+        "id": 3,
+        "titlePart": {
+            "titlePart1": "Cool",
+            "titlePart2": "Perfume"
+        },
+        "description": "Perfume is a mixture of fragrant essential oils or aroma compounds, fixatives and solvents, usually in liquid form, used to give the human body, animals, food, objects, and living-spaces an agreeable scent.",
+        "image": "../../assets/p5-Copy-600x600.png",
+        "price": 118
+    },
+    {
+        "id": 4,
+        "titlePart": {
+            "titlePart1": "Empire",
+            "titlePart2": "Black"
+        },
+        "description": "Perfume is a mixture of fragrant essential oils or aroma compounds, fixatives and solvents, usually in liquid form, used to give the human body, animals, food, objects, and living-spaces an agreeable scent.",
+        "image": "../../assets/p11.png",
+        "price": 199
+    },
+    {
+        "id": 5,
+        "titlePart": {
+            "titlePart1": "Gold",
+            "titlePart2": "Royal"
+        },
+        "description":"Perfume is a mixture of fragrant essential oils or aroma compounds, fixatives and solvents, usually in liquid form, used to give the human body, animals, food, objects, and living-spaces an agreeable scent.",
+        "image": "../../assets/p6-Copy-600x600.png",
+        "price": 99
+    },
+    {
+        "id": 6,
+        "titlePart": {
+            "titlePart1": "Lady",
+            "titlePart2": "Daily"
+        },
+        "description":"Perfume is a mixture of fragrant essential oils or aroma compounds, fixatives and solvents, usually in liquid form, used to give the human body, animals, food, objects, and living-spaces an agreeable scent.",
+        "image": "../../assets/p10.png",
+        "price": 49
+    },
+    {
+        "id": 7,
+        "titlePart": {
+            "titlePart1": "Odour of",
+            "titlePart2": "Soul"
+        },
+        "description": "Perfume is a mixture of fragrant essential oils or aroma compounds, fixatives and solvents, usually in liquid form, used to give the human body, animals, food, objects, and living-spaces an agreeable scent.",
+        "image": "../../assets/p33.png",
+        "price": 59
+    },
+    {
+        "id": 8,
+        "titlePart": {
+            "titlePart1": "Pink",
+            "titlePart2": "Spot"
+        },
+        "description":"Perfume is a mixture of fragrant essential oils or aroma compounds, fixatives and solvents, usually in liquid form, used to give the human body, animals, food, objects, and living-spaces an agreeable scent.",
+        "image": "../../assets/p7-Copy-600x600.png",
+        "price": 25
+    },
+    {
+        "id": 9,
+        "titlePart": {
+            "titlePart1": "Red",
+            "titlePart2": "Cologne"
+        },
+        "description": "Perfume is a mixture of fragrant essential oils or aroma compounds, fixatives and solvents, usually in liquid form, used to give the human body, animals, food, objects, and living-spaces an agreeable scent.",
+        "image": "../../assets/p4-Copy-600x600.png",
+        "price": 79
+    }
+]
