@@ -20,6 +20,10 @@ header {
   cursor: pointer;
 }
 
+.navLinks {
+  margin-top: 9px;
+}
+
 .ulLinks {
   display: flex;
   gap: 50px;
