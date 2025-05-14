@@ -1,0 +1,134 @@
+.popularProductsSection {
+  width: 100%;
+  padding: 100px;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.highlightedTitle {
+  font-family: var(--italianno-ff);
+  font-size: 3rem;
+  letter-spacing: 0.04em;
+  z-index: 1;
+  position: absolute;
+  top: -27px;
+  left: 5rem;
+  color: var(--main-clr-orange);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 2.5rem;
+
+  z-index: 2;
+}
+
+.popularProductsContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgb(172, 172, 172);
+  width: 100%;
+  padding: 50px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.productContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.productImageContainer img {
+  width: 500px;
+  object-fit: cover;
+  position: relative;
+  top: -30px;
+}
+
+.productTextContainer {
+  width: 500px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.description {
+  font-size: 1.1rem;
+  letter-spacing: 0.05rem;
+  line-height: 27px;
+}
+
+.productTitle {
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.highlight {
+  color: var(--main-clr-orange);
+}
+
+.shopContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 290px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.price > span:nth-child(2) {
+  font-size: 2rem;
+}
+
+.btn {
+  padding: 14px 25px;
+  font-weight: 600;
+  background-color: var(--main-clr-black);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.arrows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 700px;
+  margin-bottom: 90px;
+}
+
+.arrow1,
+.arrow2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
