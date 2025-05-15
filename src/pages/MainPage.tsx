@@ -5,6 +5,7 @@ import PopularProducts from "../components/PopularPerfumesSection/PopularProduct
 import products from "../locales/products.json";
 import { IProduct } from "../types";
 import CategorySection from "../components/CategorySection/CategorySection";
+import ProductsSection from "../components/ProductsSection/ProductsSection";
 
 const MainPage: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const MainPage: React.FC = () => {
       <AboutUsSection />
       <PopularProducts products={products as IProduct[]} />
       <CategorySection />
+      <ProductsSection products={products as IProduct[]}/>
     </>
   );
 };
