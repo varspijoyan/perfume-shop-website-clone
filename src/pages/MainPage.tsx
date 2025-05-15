@@ -4,6 +4,7 @@ import MainSection from "../components/MainSection/MainSection";
 import PopularProducts from "../components/PopularPerfumesSection/PopularProducts";
 import products from "../locales/products.json";
 import { IProduct } from "../types";
+import CategorySection from "../components/CategorySection/CategorySection";
 
 const MainPage: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const MainPage: React.FC = () => {
       <MainSection />
       <AboutUsSection />
       <PopularProducts products={products as IProduct[]} />
+      <CategorySection />
     </>
   );
 };
