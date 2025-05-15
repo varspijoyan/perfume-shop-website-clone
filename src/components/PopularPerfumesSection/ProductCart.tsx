@@ -1,3 +1,4 @@
+
 import React from "react";
 import styles from "../../styles/PopularProducts.module.css";
 import { IProduct } from "../../types";
@@ -7,6 +8,7 @@ interface IProductCartProps {
 }
 
 const ProductCart: React.FC<IProductCartProps> = ({ product }) => {
+  const imageUrl = require(`../../assets/${product.image}`);  
   return (
     <div className={styles.productContent}>
       <div className={styles.productTextContainer}>
@@ -24,7 +26,7 @@ const ProductCart: React.FC<IProductCartProps> = ({ product }) => {
         </div>
       </div>
       <div className={styles.productImageContainer}>
-        <img src={product.image} alt="image" />
+        <img src={imageUrl} alt="image" />
       </div>
     </div>
   );
