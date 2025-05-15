@@ -10,7 +10,7 @@ interface IPopularProducts {
 
 const PopularProducts: React.FC<IPopularProducts> = ({ products }) => {
   const filterProducts = useMemo(() => {
-    const validIds = [7, 5, 3]; // Set of allowed product IDs
+    const validIds = [7, 5, 3];
     return products.filter((product) => validIds.includes(product.id));
   }, [products]);
   const carouselRef = useRef<HTMLDivElement>(null);
