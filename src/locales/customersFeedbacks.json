@@ -1,0 +1,23 @@
+[
+    {
+        "firstName": "Angelina",
+        "lastName": "Depp",
+        "image": "t11.jpg",
+        "profession": "Designer",
+        "feedback": "Your company have been great at keeping me in work, they always line something else up."
+    },
+    {
+        "firstName": "Dimitry",
+        "lastName": "Chiankov",
+        "image": "t12.jpg",
+        "profession": "CEO of company",
+        "feedback": "Your company have been great at keeping me in work, they always line something else up."
+    },
+    {
+        "firstName": "Amanda",
+        "lastName": "Person",
+        "image": "t13.jpg",
+        "profession": "Blogger",
+        "feedback": "Your company have been great at keeping me in work, they always line something else up."
+    }
+]
