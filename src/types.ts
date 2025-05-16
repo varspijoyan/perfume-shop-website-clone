@@ -8,3 +8,12 @@ export interface IProduct {
   description: string;
   price: number;
 }
+
+export interface IFeedback {
+  id: number;
+  firstName: string;
+  lastName: string;
+  image: string;
+  profession: string;
+  feedback: string;
+}
