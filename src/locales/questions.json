@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "question": "What is the difference between Eau de Parfum and Eau de Toilette",
+    "answer": "Eau de Parfum (EDP) contains a higher concentration of fragrance oils (typically 15–20%) and lasts longer than Eau de Toilette (EDT), which usually contains 5–15%. EDPs are more intense and linger longer on the skin."
+  },
+  {
+    "id": 2,
+    "question": "How do I choose the right fragrance for myself",
+    "answer": "Consider your personality, lifestyle, and the occasions you'll wear it. Try testing a few scents in-store or order sample sizes to see how each one develops on your skin throughout the day."
+  },
+  {
+    "id": 3,
+    "question": "How long does a bottle of perfume last",
+    "answer": "On average, a 50ml bottle can last 4–6 months with daily use. This can vary depending on the perfume's concentration and how often you apply it."
+  },
+  {
+    "id": 4,
+    "question": "Where should I apply perfume for the best effect",
+    "answer": "Apply perfume to pulse points such as the wrists, neck, behind the ears, and inner elbows. These areas emit heat, helping to diffuse the fragrance."
+  },
+  {
+    "id": 5,
+    "question": "Do you offer testers or samples before purchase",
+    "answer": "Yes, we offer a variety of sample packs and miniatures so you can try a scent before committing to a full-size bottle."
+  },
+  {
+    "id": 6,
+    "question": "How should I store my perfumes",
+    "answer": "Store perfumes in a cool, dark place away from direct sunlight and extreme temperatures to maintain their quality and longevity."
+  },
+  {
+    "id": 7,
+    "question": "Are your perfumes authentic",
+    "answer": "Absolutely. We only sell 100% authentic, original designer and niche fragrances sourced directly from verified distributors."
+  },
+  {
+    "id": 8,
+    "question": "Can I return or exchange a perfume",
+    "answer": "Unopened and unused perfumes can be returned within 14 days of purchase. For hygiene reasons, we cannot accept returns of opened products."
+  },
+  {
+    "id": 9,
+    "question": "Do you ship internationally",
+    "answer": "Yes, we offer international shipping. Delivery times and rates may vary depending on the destination."
+  },
+  {
+    "id": 10,
+    "question": "Do you offer gift wrapping or personalized messages",
+    "answer": "Yes, we offer free gift wrapping and the option to include a personalized message at checkout."
+  }
+]

@@ -1,13 +1,9 @@
 import React from "react";
-import { IProduct } from "../../types";
-
-interface IProductSectionStyle {
-  readonly [key: string]: string;
-}
+import { IProduct, IStyle } from "../../types";
 
 interface IProductProps {
   product: IProduct;
-  styles: IProductSectionStyle;
+  styles: IStyle;
 }
 
 const Product: React.FC<IProductProps> = ({ product, styles }) => {
