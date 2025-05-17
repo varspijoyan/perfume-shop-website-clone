@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
+import { useForm } from "react-hook-form";
 import styles from "../../styles/GetOffersSection.module.css";
+import { EmailForm } from "../../types";
 
 const GetOffersSection: React.FC = () => {
+  const {
+    register,
+    formState: { errors },
+    reset,
+    handleSubmit,
+  } = useForm<EmailForm>();
+  const [data, setData] = useState<EmailForm>();
+  const onSubmit = (data: EmailForm) => {
+    setData(data);
+  };
+
   return (
     <section className={styles.getOffersSection}>
       <div className={styles.container}>
@@ -11,10 +24,29 @@ const GetOffersSection: React.FC = () => {
         <p className={styles.description}>
           Enter your email to get monthly special offers and great deals!
         </p>
-        <div className={styles.inputContainer}>
-          <input type="email" placeholder="ENTER EMAIL" />
+        <form
+          onSubmit={handleSubmit(onSubmit)}
+          className={styles.inputContainer}
+        >
+          <input
+            type="email"
+            placeholder="ENTER EMAIL"
+            {...register("email", {
+              required: {
+                value: true,
+                message: "Please fill the field",
+              },
+              pattern: {
+                value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
+                message: "Invalid email format",
+              },
+            })}
+          />
           <button type="submit">SUBSCRIBE</button>
-        </div>
+        </form>
+        {errors?.email?.message && (
+          <p className={styles.error}>{errors.email.message}</p>
+        )}
       </div>
     </section>
   );

@@ -17,3 +17,7 @@ export interface IFeedback {
   profession: string;
   feedback: string;
 }
+
+export interface EmailForm {
+  email: string;
+}
