@@ -5,7 +5,6 @@ import { Link, useLocation } from "react-router-dom";
 enum NavLink {
   HOME = "HOME",
   SHOP = "SHOP",
-  CATEGORY = "CATEGORY",
   FAQ = "FAQ",
   BLOG = "BLOG",
   ABOUT = "ABOUT",
@@ -15,7 +14,6 @@ enum NavLink {
 const linkPaths: Record<NavLink, string> = {
   [NavLink.HOME]: "/",
   [NavLink.SHOP]: "/shop",
-  [NavLink.CATEGORY]: "/category",
   [NavLink.FAQ]: "/faq",
   [NavLink.BLOG]: "/blog",
   [NavLink.ABOUT]: "/about",
