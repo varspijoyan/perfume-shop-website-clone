@@ -17,7 +17,7 @@
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   gap: 30px;
-  width: 90%;
+  width: 60%;
   overflow-x: hidden;
   overflow-y: hidden;
   scrollbar-width: none;
@@ -27,6 +27,8 @@
   height: auto;
   padding: 40px;
   border-radius: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .feedbackWrapper::-webkit-scrollbar {
