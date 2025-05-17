@@ -1,12 +1,16 @@
 import React from "react";
-import styles from "../../styles/ProductsSection.module.css";
 import { IProduct } from "../../types";
+
+interface IProductSectionStyle {
+  readonly [key: string]: string;
+}
 
 interface IProductProps {
   product: IProduct;
+  styles: IProductSectionStyle;
 }
 
-const Product: React.FC<IProductProps> = ({ product }) => {
+const Product: React.FC<IProductProps> = ({ product, styles }) => {
   const imageUrl = require(`../../assets/${product.image}`);
   return (
     <div className={styles.product} key={product.id}>

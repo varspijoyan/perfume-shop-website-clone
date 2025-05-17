@@ -22,7 +22,7 @@ const ProductsSection: React.FC<IProductsSectionProps> = ({ products }) => {
         </div>
         <div className={styles.products}>
           {filteredProducts.map((product) => (
-            <Product product={product} />
+            <Product key={product.id} product={product} styles={styles} />
           ))}
           <button className={styles.btn}>DISCOVER MORE</button>
         </div>
