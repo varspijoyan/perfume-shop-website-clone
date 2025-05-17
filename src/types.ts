@@ -18,6 +18,6 @@ export interface IFeedback {
   feedback: string;
 }
 
-export interface EmailForm {
+export interface IEmailForm {
   email: string;
 }

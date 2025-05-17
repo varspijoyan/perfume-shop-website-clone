@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import styles from "../../styles/GetOffersSection.module.css";
-import { EmailForm } from "../../types";
+import { IEmailForm } from "../../types";
 
 const GetOffersSection: React.FC = () => {
   const {
@@ -9,9 +9,9 @@ const GetOffersSection: React.FC = () => {
     formState: { errors },
     reset,
     handleSubmit,
-  } = useForm<EmailForm>();
-  const [data, setData] = useState<EmailForm>();
-  const onSubmit = (data: EmailForm) => {
+  } = useForm<IEmailForm>();
+  const [data, setData] = useState<IEmailForm>();
+  const onSubmit = (data:IEmailForm) => {
     setData(data);
   };
 
