@@ -1,0 +1,52 @@
+.getOffersSection {
+  width: 80%;
+  height: auto;
+  margin-top: 250px;
+  margin-left: 10%;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgb(184, 184, 184);
+  padding: 100px;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.inputContainer {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer input {
+  width: 410px;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: rgb(232, 232, 232);
+  padding-left: 10px;
+}
+
+.inputContainer button {
+  padding: 12px 20px;
+  border: none;
+  background-color: var(--main-clr-black);
+  color: white;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.highlightTitle {
+  color: var(--main-clr-orange);
+}
