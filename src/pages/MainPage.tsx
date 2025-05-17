@@ -9,6 +9,7 @@ import customerFeedbacks from "../locales/customersFeedbacks.json";
 import products from "../locales/products.json";
 import { IFeedback, IProduct } from "../types";
 import RecommendationSection from "../components/RecommendationSection/RecommendationSection";
+import GetOffersSection from "../components/GetOffersSection/GetOffersSection";
 
 const MainPage: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ const MainPage: React.FC = () => {
         customerFeedbacks={customerFeedbacks as IFeedback[]}
       />
       <RecommendationSection />
+      <GetOffersSection />
     </>
   );
 };
