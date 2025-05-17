@@ -13,6 +13,7 @@ const GetOffersSection: React.FC = () => {
   const [data, setData] = useState<IEmailForm>();
   const onSubmit = (data:IEmailForm) => {
     setData(data);
+    reset();
   };
 
   return (
