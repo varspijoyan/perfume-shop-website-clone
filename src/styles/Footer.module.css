@@ -1,0 +1,26 @@
+footer {
+  width: 100%;
+  background-color: rgba(217, 217, 217, 0.695);
+  padding: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.links ul {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.links ul li a {
+  color: var(--main-clr-black);
+  font-size: 18px;
+}
