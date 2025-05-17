@@ -50,3 +50,10 @@
 .highlightTitle {
   color: var(--main-clr-orange);
 }
+
+.error {
+  align-self: flex-start;
+  margin-left: 215px;
+  margin-top: -20px;
+  color: red;
+}
