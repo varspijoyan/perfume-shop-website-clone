@@ -1,0 +1,144 @@
+.faqContainer {
+  margin-top: 87px;
+  margin-bottom: 15rem;
+}
+
+.navigation {
+  width: 100%;
+  background-color: var(--main-clr-orange);
+  margin-top: 87px;
+  height: auto;
+  padding: 15px 90px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 100px;
+}
+
+.faqMark,
+.questionMark {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.faqMark > div:first-child,
+.questionMark > div:first-child {
+  width: 50px;
+  height: 50px;
+  background-color: var(--main-clr-orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-left: 50px;
+}
+
+.faqs {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 50%;
+  flex-direction: column;
+}
+
+.questionFormContainer {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.question {
+  display: flex;
+  border: 1px solid rgb(206, 206, 206);
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  width: 40vw;
+}
+
+.answer {
+  background-color: rgba(211, 211, 211, 0.589);
+  width: 86%;
+  height: auto;
+  padding: 20px;
+  position: relative;
+  top: -20px;
+  line-height: 30px;
+}
+
+.faqFormContainer {
+  position: absolute;
+  right: 350px;
+  top: 484px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.faqFormContainer form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  margin-left: 50px;
+}
+
+.faqFormContainer form input,
+.faqFormContainer form textarea {
+  width: 150%;
+  outline: none;
+  padding-left: 10px;
+  border: 1px solid rgb(194, 194, 194);
+  font-size: 15px;
+}
+
+.faqFormContainer form input {
+  height: 60px;
+}
+
+textarea {
+  height: 150px;
+  padding-top: 10px;
+}
+
+.btn {
+  align-self: flex-start;
+  padding: 13px 22px;
+  font-size: 16px;
+  border: none;
+  background-color: var(--main-clr-black);
+  color: white;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 15px;
+}
+
+.textContainer p:first-child {
+  letter-spacing: 0.9rem;
+  color: var(--main-clr-orange);
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.textContainer .title {
+  font-size: 2.7rem;
+  font-weight: 500;
+}

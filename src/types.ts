@@ -21,3 +21,19 @@ export interface IFeedback {
 export interface IEmailForm {
   email: string;
 }
+
+export interface IQuestion {
+  id: number;
+  question: string;
+  answer: string;
+}
+
+export interface IStyle {
+  readonly [key: string]: string;
+}
+
+export interface IFAQForm {
+  name: string;
+  email: string;
+  question: string;
+}
