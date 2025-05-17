@@ -8,6 +8,7 @@ import ProductsSection from "../components/ProductsSection/ProductsSection";
 import customerFeedbacks from "../locales/customersFeedbacks.json";
 import products from "../locales/products.json";
 import { IFeedback, IProduct } from "../types";
+import RecommendationSection from "../components/RecommendationSection/RecommendationSection";
 
 const MainPage: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const MainPage: React.FC = () => {
       <CustomersFeedbacksSection
         customerFeedbacks={customerFeedbacks as IFeedback[]}
       />
+      <RecommendationSection />
     </>
   );
 };
