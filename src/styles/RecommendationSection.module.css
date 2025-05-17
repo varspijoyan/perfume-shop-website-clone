@@ -1,0 +1,90 @@
+.recommendationSection {
+  width: 100%;
+  background-color: rgb(228, 228, 228);
+  height: 30rem;
+  padding: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  align-items: center;
+}
+
+.imageContainer {
+  position: relative;
+  top: -202px;
+  left: -100px;
+  z-index: 2;
+}
+
+.imageContainer img {
+  width: 97%;
+}
+
+.textContainer {
+  width: 600px;
+  background-color: white;
+  height: auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+  top: -40px;
+  z-index: 1;
+  box-shadow: 0px 0px 14px rgb(165, 165, 165);
+}
+
+.recommendations {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.recommendation {
+  margin-bottom: 20px;
+}
+
+.recommendation span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.textContainer .title {
+  font-weight: 500;
+  font-size: 2.3rem;
+}
+
+.textContainer .description {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16rem;
+}
+
+.buttons button {
+  padding: 15px 20px;
+  border: none;
+  font-size: 14px;
+  background-color: var(--main-clr-black);
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.buttons a {
+  color: var(--main-clr-black);
+}
+
+.recommendation span:nth-child(2) {
+    font-weight: 600;
+}
