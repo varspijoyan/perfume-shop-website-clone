@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "A Place of Silence",
+    "user": {
+      "image": "bloguser.png",
+      "username": "starry_night23",
+      "date": {
+        "day": "10",
+        "month": "June",
+        "year": "2024"
+      }
+    },
+    "blogImage": "b1.jpg",
+    "article": "In a world brimming with constant noise — buzzing phones, endless scrolls, and the hum of traffic — silence has become a luxury. But within that silence lies something rare, something powerful: peace, presence, and clarity."
+  },
+  {
+    "id": 2,
+    "title": "How To Design a Perfume Bottle?",
+    "user": {
+      "image": "bloguser.png",
+      "username": "dustycloud",
+      "date": {
+        "day": "1",
+        "month": "July",
+        "year": "2024"
+      }
+    },
+    "blogImage": "b2.jpg",
+    "article": "In the world of perfumery, the bottle is more than a container — it is the first impression, the silent ambassador of the scent within. At Italian Style, we see perfume bottle design as a delicate dance between aesthetics, emotion, and identity."
+  },
+  {
+    "id": 3,
+    "title": "Bed Selection Guide",
+    "user": {
+      "image": "bloguser.png",
+      "username": "chillcodezz",
+      "date": {
+        "day": "20",
+        "month": "July",
+        "year": "2024"
+      }
+    },
+    "blogImage": "b3.jpg",
+    "article": "Your bed is more than just a piece of furniture — it’s the centerpiece of your bedroom, the foundation of your rest, and a reflection of your personal style. At Italian Style, where elegance meets daily living, we believe that your bedroom should be as beautifully curated as your closet."
+  },
+  {
+    "id": 4,
+    "title": "Much Space in World",
+    "user": {
+      "image": "bloguser.png",
+      "username": "luna_dev",
+      "date": {
+        "day": "30",
+        "month": "August",
+        "year": "2024"
+      }
+    },
+    "blogImage": "b4.jpg",
+    "article": "In a world that often feels crowded — with obligations, with voices, with screens — the idea of space becomes a quiet kind of luxury. Not just physical space, but emotional space. Breathing space. Scented space."
+  }
+]
