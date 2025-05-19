@@ -2,8 +2,8 @@ export interface IProduct {
   id: number;
   titlePart: {
     titlePart1: string;
-    titlePart2: string; 
-  }
+    titlePart2: string;
+  };
   image: string;
   description: string;
   price: number;
@@ -36,4 +36,20 @@ export interface IFAQForm {
   name: string;
   email: string;
   question: string;
+}
+
+export interface IBlog {
+  id: number;
+  title: string;
+  user: {
+    image: string;
+    username: string;
+    date: {
+      day: string;
+      month: string;
+      year: string;
+    };
+  };
+  blogImage: string;
+  article: string;
 }

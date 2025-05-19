@@ -1,0 +1,95 @@
+.navigation {
+  width: 100%;
+  background-color: var(--main-clr-orange);
+  margin-top: 87px;
+  height: auto;
+  padding: 15px 90px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.blogs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 140px 0;
+}
+
+.blog {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 350px;
+}
+
+.titleContent {
+  background-color: var(--main-clr-black);
+  color: white;
+  padding: 15px;
+  border-bottom: 4px solid var(--main-clr-orange);
+}
+
+.titleContent .title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.userBlogArticle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.userBlogArticle .userContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.userBlogArticle .userContent img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.userBlogArticle .userContent .userInfo .username,
+.userBlogArticle .userContent .userInfo .blogDate {
+  font-size: 13px;
+}
+
+.userBlogArticle .userContent .userInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.userBlogArticle .article {
+  width: 300px;
+}
+
+.imageContainer {
+  position: relative;
+  left: 400px;
+  top: -350px;
+}
+
+.imageContainer img {
+  width: 300px;
+}
+
+.btn {
+  padding: 13px 20px;
+  border: none;
+  background-color: var(--main-clr-black);
+  color: white;
+  letter-spacing: 0.1em;
+  border-bottom: 5px solid var(--main-clr-orange);
+  cursor: pointer;  
+}
