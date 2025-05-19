@@ -2,26 +2,21 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import blogs from "./locales/blogData.json";
 import products from "./locales/products.json";
 import questions from "./locales/questions.json";
+import BlogPage from "./pages/BlogPage";
 import FAQPage from "./pages/FAQPage";
 import MainPage from "./pages/MainPage";
 import ShopPage from "./pages/ShopPage";
-import { IProduct, IQuestion } from "./types";
+import { IBlog, IProduct, IQuestion } from "./types";
 
 function App() {
   return (
     <>
       <Header />
       <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <MainPage />
-            </>
-          }
-        />
+        <Route path="/" element={<MainPage />} />
         <Route
           path="/shop"
           element={<ShopPage products={products as IProduct[]} />}
@@ -30,6 +25,7 @@ function App() {
           path="/faq"
           element={<FAQPage faqs={questions as IQuestion[]} />}
         />
+        <Route path="/blog" element={<BlogPage blogs={blogs as IBlog[]} />} />
       </Routes>
       <Footer />
     </>
