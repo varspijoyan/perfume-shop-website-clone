@@ -1,6 +1,7 @@
 import React from "react";
 import { IStyle } from "../../types";
 import image2 from "../../assets/img7.jpg";
+import Amount from "./Amount";
 
 interface IOurStoryProps {
   styles: IStyle;
@@ -24,6 +25,7 @@ const OurStoryContainer: React.FC<IOurStoryProps> = ({ styles }) => {
           people began constructing and carving their own furniture, using wood,
           stone, and animal bones.
         </p>
+        <Amount styles={styles} />
       </div>
     </div>
   );

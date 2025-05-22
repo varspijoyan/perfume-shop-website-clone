@@ -15,7 +15,15 @@
   justify-content: center;
   align-items: flex-start;
   gap: 50px;
-  padding: 100px;
+  padding: 20px 100px;
+}
+
+.aboutUsContainer {
+  margin-top: 100px;
+}
+
+.ourStory {
+  margin-bottom: 100px;
 }
 
 .aboutUsContainer .aboutImageContainer img {
@@ -83,6 +91,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.counts {
+  display: flex;
+  gap: 70px;
+  margin-left: 20px;
+}
+
+.counts .count {
+  width: 70px;
+  height: 70px;
+  color: white;
+  background-color: var(--main-clr-orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
 }
 
 @media screen and (max-width: 1269px) {
