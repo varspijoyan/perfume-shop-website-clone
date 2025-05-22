@@ -1,0 +1,118 @@
+.contactUsPageContainer {
+  width: 100%;
+}
+
+.navigation {
+  width: 100%;
+  background-color: var(--main-clr-orange);
+  margin-top: 87px;
+  height: auto;
+  padding: 15px 90px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.typesOfContact {
+  display: flex;
+  padding: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.type {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  background-color: var(--main-clr-black);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid var(--main-clr-orange);
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formContainer form div input,
+.formContainer form div select {
+  width: 300px;
+  height: 50px;
+  padding-left: 10px;
+  display: flex;
+}
+
+.formContainer form textarea {
+  padding-left: 10px;
+  width: 100%;
+}
+
+.formContainer form div input:focus,
+.formContainer form div select:focus,
+.formContainer form textarea:focus {
+  outline: 1px solid var(--main-clr-black);
+}
+
+.formContainer form div {
+  display: flex;
+  gap: 20px;
+}
+.formContainer form .input {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  align-self: center;
+  padding: 12px 20px;
+  background-color: var(--main-clr-black);
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.error {
+  position: absolute;
+  top: 60%;
+  left: 260px;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  z-index: 2;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.errorQuestion {
+  top: 82%;
+  left: 260px;
+}
+
+.emailError {
+  left: 590px;
+}
