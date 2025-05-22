@@ -53,3 +53,15 @@ export interface IBlog {
   blogImage: string;
   article: string;
 }
+
+export interface IContactForm {
+  name: string;
+  email: string;
+  phone?: string;
+  option?:
+    | "Business Department"
+    | "Personal Department"
+    | "Support Department"
+    | "Others";
+  question: string;
+}

@@ -11,6 +11,7 @@ import FAQPage from "./pages/FAQPage";
 import MainPage from "./pages/MainPage";
 import ShopPage from "./pages/ShopPage";
 import { IBlog, IProduct, IQuestion } from "./types";
+import ContactUsPage from "./pages/ContactUsPage";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         />
         <Route path="/blog" element={<BlogPage blogs={blogs as IBlog[]} />} />
         <Route path="/about" element={<AboutUsPage />} />
+        <Route path="/contact" element={<ContactUsPage />}/>
       </Routes>
       <Footer />
     </>
