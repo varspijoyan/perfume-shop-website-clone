@@ -1,8 +1,10 @@
 import React from "react";
 import logo from "../../assets/logo2x.png";
 import styles from "../../styles/Footer.module.css";
+import { Link, useNavigate } from "react-router-dom";
 
 const Footer: React.FC = () => {
+  const navigateTo = useNavigate();
   return (
     <footer>
       <div className={styles.container}>
@@ -10,10 +12,10 @@ const Footer: React.FC = () => {
         <div className={styles.links}>
           <ul>
             <li>
-              <a href="#">Perfumes</a>
+              <Link to="/shop">Perfumes</Link>
             </li>
             <li>
-              <a href="#">About us</a>
+              <Link to="/about">About us</Link>
             </li>
             <li>
               <a href="#">Stores</a>
