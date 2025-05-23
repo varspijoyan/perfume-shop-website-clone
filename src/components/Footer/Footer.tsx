@@ -1,10 +1,9 @@
 import React from "react";
 import logo from "../../assets/logo2x.png";
 import styles from "../../styles/Footer.module.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
-  const navigateTo = useNavigate();
   return (
     <footer>
       <div className={styles.container}>
