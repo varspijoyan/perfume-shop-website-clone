@@ -2,12 +2,14 @@ import React, { useMemo } from "react";
 import styles from "../../styles/ProductsSection.module.css";
 import { IProduct } from "../../types";
 import Product from "./Product";
+import { useNavigate } from "react-router-dom";
 
 interface IProductsSectionProps {
   products: IProduct[];
 }
 
 const ProductsSection: React.FC<IProductsSectionProps> = ({ products }) => {
+  const navigateTo = useNavigate();
   const filteredProducts = useMemo(() => {
     const first6Ids = [1, 2, 3, 4, 5, 6];
     return products.filter((product) => first6Ids.includes(product.id));
@@ -24,7 +26,7 @@ const ProductsSection: React.FC<IProductsSectionProps> = ({ products }) => {
           {filteredProducts.map((product) => (
             <Product key={product.id} product={product} styles={styles} />
           ))}
-          <button className={styles.btn}>DISCOVER MORE</button>
+          <button className={styles.btn} onClick={() => navigateTo('/shop')}>DISCOVER MORE</button>
         </div>
       </div>
     </section>
