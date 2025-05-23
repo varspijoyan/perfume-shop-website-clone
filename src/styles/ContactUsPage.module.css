@@ -58,9 +58,11 @@
   height: 50px;
   padding-left: 10px;
   display: flex;
+  outline: none;
 }
 
 .formContainer form textarea {
+  outline: none;
   padding-left: 10px;
   width: 100%;
 }
@@ -68,7 +70,8 @@
 .formContainer form div input:focus,
 .formContainer form div select:focus,
 .formContainer form textarea:focus {
-  outline: 1px solid var(--main-clr-black);
+ border: 1.8px solid var(--main-clr-black);
+  border-radius: 3px;
 }
 
 .formContainer form div {
