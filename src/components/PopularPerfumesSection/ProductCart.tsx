@@ -2,12 +2,14 @@
 import React from "react";
 import styles from "../../styles/PopularProducts.module.css";
 import { IProduct } from "../../types";
+import { useNavigate } from "react-router-dom";
 
 interface IProductCartProps {
   product: IProduct;
 }
 
 const ProductCart: React.FC<IProductCartProps> = ({ product }) => {
+  const navigateTo = useNavigate();
   const imageUrl = require(`../../assets/${product.image}`);  
   return (
     <div className={styles.productContent}>
@@ -22,7 +24,7 @@ const ProductCart: React.FC<IProductCartProps> = ({ product }) => {
             <span>PRICE</span>
             <span>${product.price}</span>
           </div>
-          <button className={styles.btn}>SHOP NOW</button>
+          <button className={styles.btn} onClick={() => navigateTo('/shop')}>SHOP NOW</button>
         </div>
       </div>
       <div className={styles.productImageContainer}>

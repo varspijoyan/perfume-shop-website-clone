@@ -1,8 +1,10 @@
 import React from "react";
 import image from "../../assets/img5.png";
 import styles from "../../styles/RecommendationSection.module.css";
+import { Link, useNavigate } from "react-router-dom";
 
 const RecommendationSection: React.FC = () => {
+  const navigateTo = useNavigate();
   return (
     <section className={styles.recommendationSection}>
       <div className={styles.container}>
@@ -83,10 +85,10 @@ const RecommendationSection: React.FC = () => {
             </div>
           </div>
           <div className={styles.buttons}>
-            <button className={styles.btn}>SHOP NOW</button>
-            <a href="#" className={styles.link}>
+            <button className={styles.btn} onClick={() => navigateTo('/shop')}>SHOP NOW</button>
+            <Link to="/about" className={styles.link}>
               LEARN MORE
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,8 +1,10 @@
 import React from "react";
 import image from "../../assets/p1.png";
 import styles from "../../styles/MainSection.module.css";
+import { useNavigate } from "react-router-dom";
 
 const MainSection: React.FC = () => {
+  const navigateTo = useNavigate();
   return (
     <main>
       <div className={styles.container}>
@@ -23,7 +25,7 @@ const MainSection: React.FC = () => {
               <span>$480</span>
             </div>
             <div className={styles.buttons}>
-              <button className={styles.shopCartBtn}>
+              <button className={styles.shopCartBtn} onClick={() => navigateTo('/shop')}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="24px"
@@ -35,7 +37,7 @@ const MainSection: React.FC = () => {
                 </svg>
                 <span>SHOP NOW</span>
               </button>
-              <button className={styles.exploreBtn}>EXPLORE MORE</button>
+              <button className={styles.exploreBtn} onClick={() => navigateTo('/shop')}>EXPLORE MORE</button>
             </div>
           </div>
         </div>
