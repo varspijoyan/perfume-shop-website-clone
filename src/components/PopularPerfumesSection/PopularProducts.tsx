@@ -3,6 +3,7 @@ import React, { useMemo, useRef } from "react";
 import styles from "../../styles/PopularProducts.module.css";
 import { IProduct } from "../../types";
 import ProductCart from "./ProductCart";
+import { hover } from "@testing-library/user-event/dist/hover";
 
 interface IPopularProducts {
   products: IProduct[];
@@ -39,7 +40,7 @@ const PopularProducts: React.FC<IPopularProducts> = ({ products }) => {
               height="24px"
               viewBox="0 -960 960 960"
               width="24px"
-              fill="black"
+              fill="currentColor"
             >
               <path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z" />
             </svg>
@@ -50,7 +51,7 @@ const PopularProducts: React.FC<IPopularProducts> = ({ products }) => {
               height="24px"
               viewBox="0 -960 960 960"
               width="24px"
-              fill="black"
+              fill="currentColor"
             >
               <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
             </svg>
