@@ -74,6 +74,11 @@
   background-color: var(--main-clr-black);
   color: white;
   cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.exploreBtn:hover {
+  background-color: var(--main-clr-orange);
 }
 
 .imgTitle {

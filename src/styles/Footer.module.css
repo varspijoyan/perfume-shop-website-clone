@@ -23,4 +23,9 @@ footer {
 .links ul li a {
   color: var(--main-clr-black);
   font-size: 18px;
+  transition: ease-in-out 0.3s;
+}
+
+.links ul li a:hover {
+  color: var(--main-clr-orange);
 }

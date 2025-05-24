@@ -40,6 +40,11 @@
   background-color: var(--main-clr-black);
   color: white;
   cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.inputContainer button:hover {
+  background-color: var(--main-clr-orange);
 }
 
 .title {

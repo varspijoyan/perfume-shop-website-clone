@@ -79,10 +79,20 @@
   background-color: var(--main-clr-black);
   color: whitesmoke;
   cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.buttons button:hover {
+  background-color: var(--main-clr-orange);
 }
 
 .buttons a {
   color: var(--main-clr-black);
+  transition: ease-in-out 0.2s;
+}
+
+.buttons a:hover {
+  border-bottom: 2px solid var(--main-clr-orange);
 }
 
 .recommendation span:nth-child(2) {
