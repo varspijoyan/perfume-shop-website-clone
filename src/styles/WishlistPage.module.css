@@ -1,0 +1,11 @@
+.navigation {
+  width: 100%;
+  background-color: var(--main-clr-orange);
+  margin-top: 87px;
+  height: auto;
+  padding: 15px 90px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}

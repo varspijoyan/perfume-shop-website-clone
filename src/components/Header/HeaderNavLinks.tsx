@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
-import styles from "../../styles/Header.module.css";
 import { Link, useLocation } from "react-router-dom";
+import styles from "../../styles/Header.module.css";
+import WishList from "./WishList";
+import Cart from "./Cart";
 
 enum NavLink {
   HOME = "HOME",
@@ -9,6 +11,7 @@ enum NavLink {
   BLOG = "BLOG",
   ABOUT = "ABOUT",
   CONTACT = "CONTACT",
+  WISHLIST = "WISHLIST",
 }
 
 const linkPaths: Record<NavLink, string> = {
@@ -18,6 +21,7 @@ const linkPaths: Record<NavLink, string> = {
   [NavLink.BLOG]: "/blog",
   [NavLink.ABOUT]: "/about",
   [NavLink.CONTACT]: "/contact",
+  [NavLink.WISHLIST]: "/wishlist",
 };
 
 const HeaderNavLinks: React.FC = () => {
@@ -37,20 +41,26 @@ const HeaderNavLinks: React.FC = () => {
   }, [location]);
 
   return (
-    <nav className={styles.navLinks}>
-      <ul className={styles.ulLinks}>
-        {navLinks.map((link) => (
-          <li key={link}>
-            <Link
-              to={linkPaths[link]}
-              className={selectedLink === link ? styles.liActive : ""}
-            >
-              {link}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <>
+      <nav className={styles.navLinks}>
+        <ul className={styles.ulLinks}>
+          {navLinks.map((link) => (
+            <li key={link}>
+              <Link
+                to={linkPaths[link]}
+                className={selectedLink === link ? styles.liActive : ""}
+              >
+                {link}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
+      <div className={styles.wishListAndCartContent}>
+        <WishList />
+        <Cart />
+      </div>
+    </>
   );
 };
 
