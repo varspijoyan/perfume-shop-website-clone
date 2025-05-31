@@ -11,6 +11,7 @@
 }
 
 .products {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   width: 70%;
@@ -32,7 +33,10 @@
   background-color: rgba(226, 226, 226, 0.665);
   height: 260px;
   border-radius: 10px;
-
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .productTitle {
@@ -42,7 +46,37 @@
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.hoverOnProduct {
+  position: relative;
+  top: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  transition: all ease-in-out 1s;
+}
+
+.hoverOnProduct .hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--main-clr-black);
+  width: 50px;
+  height: 35px;
+  cursor: pointer;
+  transition: background-color ease-in 0.3s;
+}
+
+.product:hover .hoverOnProduct {
+  display: flex;
+}
+
+.hoverOnProduct .hover:hover {
+  background-color: var(--main-clr-orange);
 }

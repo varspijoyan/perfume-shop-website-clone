@@ -13,6 +13,7 @@
 }
 
 .products {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -30,6 +31,10 @@
 .product {
   background-color: rgba(238, 238, 238, 0.784);
   height: 360px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .textContainer {
@@ -80,5 +85,35 @@
 }
 
 .btn:hover {
+  background-color: var(--main-clr-orange);
+}
+
+.hoverOnProduct {
+  position: relative;
+  top: -120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  transition: all ease-in-out 1s;
+}
+
+.hoverOnProduct .hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--main-clr-black);
+  width: 50px;
+  height: 35px;
+  cursor: pointer;
+  transition: background-color ease-in 0.3s;
+}
+
+.product:hover .hoverOnProduct {
+  display: flex;
+}
+
+.hoverOnProduct .hover:hover {
   background-color: var(--main-clr-orange);
 }
