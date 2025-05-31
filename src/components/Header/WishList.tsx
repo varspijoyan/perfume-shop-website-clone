@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-
 const WishList: React.FC = () => {
   const navigateTo = useNavigate();
   return (
@@ -19,4 +18,5 @@ const WishList: React.FC = () => {
     </div>
   );
 };
+
 export default WishList;
