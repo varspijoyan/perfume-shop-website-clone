@@ -1,8 +1,8 @@
 import React, { useMemo } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "../../styles/ProductsSection.module.css";
 import { IProduct } from "../../types";
 import Product from "./Product";
-import { useNavigate } from "react-router-dom";
 
 interface IProductsSectionProps {
   products: IProduct[];
@@ -26,7 +26,9 @@ const ProductsSection: React.FC<IProductsSectionProps> = ({ products }) => {
           {filteredProducts.map((product) => (
             <Product key={product.id} product={product} styles={styles} />
           ))}
-          <button className={styles.btn} onClick={() => navigateTo('/shop')}>DISCOVER MORE</button>
+          <button className={styles.btn} onClick={() => navigateTo("/shop")}>
+            DISCOVER MORE
+          </button>
         </div>
       </div>
     </section>
