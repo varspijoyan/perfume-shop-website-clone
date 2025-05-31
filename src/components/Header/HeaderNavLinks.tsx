@@ -11,7 +11,6 @@ enum NavLink {
   BLOG = "BLOG",
   ABOUT = "ABOUT",
   CONTACT = "CONTACT",
-  WISHLIST = "WISHLIST",
 }
 
 const linkPaths: Record<NavLink, string> = {
@@ -21,7 +20,6 @@ const linkPaths: Record<NavLink, string> = {
   [NavLink.BLOG]: "/blog",
   [NavLink.ABOUT]: "/about",
   [NavLink.CONTACT]: "/contact",
-  [NavLink.WISHLIST]: "/wishlist",
 };
 
 const HeaderNavLinks: React.FC = () => {
